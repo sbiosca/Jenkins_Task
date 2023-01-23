@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+    stages {
+        stage('welcome') {
+            steps {
+                echo "HOLA Bioskin GITHUB"
+            }
+        }
+        stage('bye') {
+            steps {
+                echo "ADIOS Bioskin GITHUB"
+            }
+        }
+    }
+}
